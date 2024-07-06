@@ -1,0 +1,13 @@
+type: module
+name: GraphQL Context Test
+description: Test contexts in graphql schema.
+package: Testing
+core_version_requirement: ^9 || ^10
+hidden: TRUE
+dependencies:
+  - graphql:graphql_core
+
+# Information added by Drupal.org packaging script on 2023-11-08
+version: '8.x-3.4'
+project: 'graphql'
+datestamp: 1699451206

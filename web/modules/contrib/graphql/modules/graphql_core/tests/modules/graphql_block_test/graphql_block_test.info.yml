@@ -1,0 +1,19 @@
+name: "GraphQL Test: Blocks"
+type: module
+package: Testing
+core_version_requirement: ^9 || ^10
+hidden: TRUE
+dependencies:
+  - drupal:block
+  - drupal:block_content
+  - drupal:ckeditor
+  - drupal:editor
+  - drupal:field
+  - drupal:filter
+  - drupal:system
+  - drupal:text
+
+# Information added by Drupal.org packaging script on 2023-11-08
+version: '8.x-3.4'
+project: 'graphql'
+datestamp: 1699451206
