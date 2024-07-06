@@ -1,0 +1,18 @@
+uuid: 839b9118-447a-4d3b-a07c-e48425ee7062
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Bar
+type: bar
+description: "Explore Cairo’s Best Bars: From Historic Haunts to Rooftop Gems\r\n\r\nDiscover Cairo’s vibrant nightlife scene with our curated “Bar” content type. Whether you’re a local or a visitor, our profiles guide you to the city’s trendiest spots. Sip cocktails with Nile views, groove to live music, and soak in the historic ambiance. From downtown Cairo’s hidden gems to iconic rooftop lounges, find your perfect bar experience. Cheers to unforgettable nights in the heart of Egypt’s capital! 🍹🌆"
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true
