@@ -773,6 +773,9 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  */
 # $settings['trusted_host_patterns'] = [];
 
+$settings['trusted_host_patterns'] = [
+  '^cairo_bars\.local$',
+];
 /**
  * The default list of directories that will be ignored by Drupal's file API.
  *
@@ -902,4 +905,4 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_vM2HBuypxSByOeDvJTd49FFZ-xz4dwZZP3yUEBWTRALAISWWqFpbjavL8yIZT99fwKM3RjKdQw/sync';
+$settings['config_sync_directory'] = '../config/default/sync';
